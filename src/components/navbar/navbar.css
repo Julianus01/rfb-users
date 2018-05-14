@@ -1,0 +1,27 @@
+nav{
+    overflow: hidden;
+    -webkit-box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.3);
+	   -moz-box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.3);
+}
+
+nav > div{
+    float: left;
+    display: grid;
+    /* border: 1px solid grey; */
+    transition: all 0.2s ease-in-out;
+}
+nav > div> a{
+    padding: 1em 2em 1em 2em;
+    text-decoration: none !important;
+
+    -webkit-transition: all 0.2s ease-in-out;
+       -moz-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+}
+
+/* Hover */
+
+nav > div > a:hover{
+    background-color: lightgray;
+}

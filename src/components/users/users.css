@@ -1,0 +1,17 @@
+.users-page{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-gap: 1em;
+
+    margin: 4em;
+}
+
+.users-page > div{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.users-list{
+    display: grid;
+    grid-row-gap: 3em;
+}
