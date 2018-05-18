@@ -1,0 +1,10 @@
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+}
+
+.gallery-element{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './user.css';
-import firebase from 'firebase';
 
 class User extends Component {
 

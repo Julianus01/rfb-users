@@ -11,7 +11,7 @@ class Navbar extends Component {
                     <NavLink to="/home" 
                     activeStyle={{ color: 'red' }}>Home</NavLink>
                 </div>
-                <div>
+                {/* <div>
                     <NavLink to="/users" 
                     activeStyle={{ color: 'red' }}>Users</NavLink>
                 </div>
@@ -22,6 +22,10 @@ class Navbar extends Component {
                 <div>
                     <NavLink to="/contact" 
                     activeStyle={{ color: 'red' }}>Contact</NavLink>
+                </div> */}
+                <div>
+                    <NavLink to="/blog" 
+                    activeStyle={{ color: 'red' }}>Blog</NavLink>
                 </div>
             </nav>
         );

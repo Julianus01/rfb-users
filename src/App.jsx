@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/navbar/navbar.jsx';
 import Users from './components/users/users.jsx';
 import Home from './components/home/home.jsx';
+import Blog from './components/blog/blog.jsx';
 
 class App extends Component {
 
@@ -16,7 +17,7 @@ class App extends Component {
 
             <Route exact path='/' component={Home} />
             <Route exact strict path='/home' component={Home} />
-            <Route exact strict path='/users' component={Users} />
+            <Route exact strict path='/blog' component={Blog} />
           </div>
         </Router>
       </div>

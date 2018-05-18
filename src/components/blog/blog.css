@@ -1,0 +1,6 @@
+.posts-list{
+    display: grid;
+    margin: 3em auto 3em auto;
+    width: 50%;
+    grid-row-gap: 3em;
+}

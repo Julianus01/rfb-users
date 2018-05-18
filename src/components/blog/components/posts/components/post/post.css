@@ -1,0 +1,8 @@
+.post-container{
+    display: grid;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.post-container > img{
+    margin: auto;
+}

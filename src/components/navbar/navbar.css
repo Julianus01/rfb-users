@@ -11,7 +11,7 @@ nav > div{
     /* border: 1px solid grey; */
     transition: all 0.2s ease-in-out;
 }
-nav > div> a{
+nav > div > a{
     padding: 1em 2em 1em 2em;
     text-decoration: none !important;
 
